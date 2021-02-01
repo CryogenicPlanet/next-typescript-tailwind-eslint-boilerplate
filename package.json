@@ -1,5 +1,6 @@
 {
-  "name": "with-typescript",
+  "name": "next-typescript-tailwind-eslint-prettier",
+  "author": "@CryogenicPlanet",
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
@@ -44,10 +45,17 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-standard": "^5.0.0",
+    "husky": "^4.3.8",
     "next-on-netlify": "^2.8.6",
     "prettier": "^2.2.1",
     "prettier-config-standard": "^1.0.1",
     "typescript": "4.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn prettier",
+      "pre-push": "yarn verify"
+    }
+  }
 }
