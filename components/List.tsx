@@ -1,6 +1,7 @@
+import { User } from '@interfaces/index'
 import * as React from 'react'
+
 import ListItem from './ListItem'
-import { User } from '../interfaces'
 
 type Props = {
   items: User[]
@@ -8,7 +9,7 @@ type Props = {
 
 const List = ({ items }: Props) => (
   <ul>
-    {items.map((item) => (
+    {items.map(item => (
       <li key={item.id}>
         <ListItem data={item} />
       </li>
