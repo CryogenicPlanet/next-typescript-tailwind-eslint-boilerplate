@@ -16,6 +16,8 @@
     "verify:fix": "yarn prettier:fix && yarn lint:fix"
   },
   "dependencies": {
+    "@headlessui/react": "^1.0.0",
+    "@heroicons/react": "^1.0.1",
     "autoprefixer": "^10.2.4",
     "next": "latest",
     "postcss": "^8.2.4",
