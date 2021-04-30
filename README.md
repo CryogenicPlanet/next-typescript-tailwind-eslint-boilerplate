@@ -1,5 +1,7 @@
 # TypeScript + Next.js + Tailwind + Eslint + Prettier
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e3bba96c-26d8-4fb6-b385-3c51bae5cdc3/deploy-status)](https://app.netlify.com/sites/fervent-williams-15bb24/deploys)
+
 This is a really simple project that shows the usage of Next.js with TypeScript.
 
 ## How to use it?
@@ -10,18 +12,19 @@ git clone https://github.com/CryogenicPlanet/next-typescript-tailwind-eslint-boi
 
 
 2. Install and Run
-yarn
-yarn dev
+pnpm i
+pnpm dev
 ```
 
 ## Notes
 
 Other features/quirks
 
-1. Paths setup for you
+1. **PNPM** Faster and more safe efficient package manager
+2. Paths setup for you
    Eg. You can `import Link from '@components/Link`
-2. Import sorting
-3. Eslint + Prettier Config setup using standard
-4. Tailwind installed setup globally
-5. Next on Netlify setup.
-6. Husky Commit Hook
+3. Import sorting
+4. Eslint + Prettier Config setup using standard
+5. Tailwind installed setup globally
+6. Deployment with Netlify setup
+7. Husky Commit Hook
