@@ -1,4 +1,8 @@
 [build]
   command   = "npm run build"
-  functions = "out_functions"
-  publish   = "out_publish"
+  publish   = "out"
+
+[[plugins]]
+  package = "netlify-plugin-pnpm-preinstaller"
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
