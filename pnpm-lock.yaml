@@ -2,7 +2,6 @@ dependencies:
   '@headlessui/react': 1.0.0_react@17.0.2
   '@heroicons/react': 1.0.1_react@17.0.2
   autoprefixer: 10.2.5_postcss@8.2.10
-  netlify-plugin-pnpm-preinstaller: 0.0.2
   next: 10.2.0_c4d9895f1fa422c7d495385ec9ad965b
   postcss: 8.2.10
   react: 17.0.2
@@ -2559,12 +2558,6 @@ packages:
     dev: true
     resolution:
       integrity: sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
-  /netlify-plugin-pnpm-preinstaller/0.0.2:
-    dev: false
-    engines:
-      node: '>=12.18.0'
-    resolution:
-      integrity: sha512-WsDWA02ahnyozQ6pvB/nTHbdahdVb+ArEfG1NDosnKw9WcO11VW7O6gSIyxYlcCYZ0FaHXdZhAPorie6bKBIBg==
   /next/10.2.0_c4d9895f1fa422c7d495385ec9ad965b:
     dependencies:
       '@babel/runtime': 7.12.5
@@ -4115,7 +4108,6 @@ specifiers:
   eslint-plugin-simple-import-sort: ^7.0.0
   eslint-plugin-standard: ^5.0.0
   husky: ^4.3.8
-  netlify-plugin-pnpm-preinstaller: ^0.0.2
   next: latest
   postcss: ^8.2.4
   prettier: ^2.2.1
